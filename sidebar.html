@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Sidebar</title>
+    <link
+      rel="icon"
+      href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon.ico"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/ripple.css" />
+    <link rel="stylesheet" href="./css/scrollbar.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
+  </head>
+  <body>
+    <aside class="sidebar ps-scrollbar border-end position-relative vh-100 p-2">
+      <nav class="nav flex-column h-auto d-block ps-scrollbar-content">
+        <a class="nav-link rounded-3 bg-hover ripple" href="#home">Home</a>
+        <a
+          class="nav-link rounded-3 bg-hover ripple"
+          href="#tutorials"
+          role="button"
+          data-bs-toggle="collapse"
+          aria-expanded="false"
+          aria-controls="tutorials"
+          >Tutorials</a
+        >
+        <div class="collapse border-start ms-3" id="tutorials">
+          <nav class="nav flex-column">
+            <a
+              class="nav-link rounded-3 bg-hover ripple"
+              href="#htmlcss"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="htmlcss"
+              >HTML & CSS</a
+            >
+            <div class="collapse border-start ms-3" id="htmlcss">
+              <nav class="nav flex-column">
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/html"
+                  >HTML</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/css"
+                  >CSS</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/rwd"
+                  >RWD</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/bootstrap"
+                  >Bootstrap</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/w3css"
+                  >W3.CSS</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/colors"
+                  >Colors</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/icons"
+                  >Icons</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/graphics"
+                  >Graphics</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/svg"
+                  >SVG</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/canvas"
+                  >Canvas</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/howto"
+                  >How To</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/sass"
+                  >Sass</a
+                >
+              </nav>
+            </div>
+            <a
+              class="nav-link rounded-3 bg-hover ripple"
+              href="#javascript"
+              role="button"
+              data-bs-toggle="collapse"
+              aria-expanded="false"
+              aria-controls="javascript"
+              >JavaScript</a
+            >
+            <div class="collapse border-start ms-3" id="javascript">
+              <nav class="nav flex-column">
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/javascript"
+                  >JavaScript</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/jquery"
+                  >jQuery</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/react"
+                  >React</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/angularjs"
+                  >AngularJS</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/w3css"
+                  >JSON</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/ajax"
+                  >Ajax</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/icons"
+                  >Icons</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/appml"
+                  >AppML</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/svg"
+                  >SVG</a
+                >
+                <a
+                  class="nav-link rounded-3 bg-hover ripple"
+                  href="#tutorials/w3js"
+                  >W3.JS</a
+                >
+              </nav>
+            </div>
+            <a class="nav-link rounded-3 bg-hover ripple" href="#programming"
+              >Programming</a
+            >
+            <a class="nav-link rounded-3 bg-hover ripple" href="#serverside"
+              >Server Side</a
+            >
+            <a class="nav-link rounded-3 bg-hover ripple" href="#xml">XML</a>
+          </nav>
+        </div>
+        <a class="nav-link rounded-3 bg-hover ripple" href="#myaccount"
+          >My Account</a
+        >
+        <a class="nav-link rounded-3 bg-hover ripple" href="#settings"
+          >Settings</a
+        >
+        <a class="nav-link rounded-3 bg-hover ripple" href="#signout"
+          >Sign out</a
+        >
+      </nav>
+    </aside>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/perfect-scrollbar.js"></script>
+    <script src="./js/bg-hover.js"></script>
+    <script src="./js/ripple.js"></script>
+    <script src="./js/scrollbar.js"></script>
+  </body>
+</html>
